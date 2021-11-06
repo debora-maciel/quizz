@@ -1,0 +1,33 @@
+.link{ 
+    border: 3px solid #d32607;
+    height: 15%;
+    margin: 1%;
+    // margin-bottom: 2%;
+    border-radius: 0px 15px 15px 15px;
+    color: white;
+    float: left;
+    // background-color: #d32607;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #d32607;
+}
+
+
+p{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.col-md-12{
+    height: 5%;
+    padding-bottom: 10%;
+}

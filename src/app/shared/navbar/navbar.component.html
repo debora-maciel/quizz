@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+      <div class="dropdown button-dropdown">
+        <div ngbDropdown>
+          <a class="dropdown-toggle" ngbDropdownToggle>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+          </a>
+           <div ngbDropdownMenu>
+             <a class="dropdown-item" href="#">UI - User Interface</a>
+             <a class="dropdown-item" href="#">UX - User Experience</a>
+             <a class="dropdown-item" routerLink="quiz">Quiz</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">UX na Techer</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">Sobre </a>
+           </div>
+         </div>
+      </div>
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" ngbTooltip="Designed by Invision. Coded by Creative Tim">
+                Menu
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.techer.com.br/" target="_blank">
+                      <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+                      <p>Techer</p>
+                  </a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://debora.netlify.app/" target="_blank">
+                      <i class="now-ui-icons files_paper"></i>
+                      <p>Débora L. F. Maciel</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Conect with me on Discord" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
+                    <i class="fab fa-discord"></i>
+                    <p class="d-lg-none d-xl-none">Twitter</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Follow me on Instagram" data-placement="bottom" href="https://www.instagram.com/trxuxv/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <p class="d-lg-none d-xl-none">Instagram</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Conect with me on Linkedin" data-placement="bottom" href="https://www.linkedin.com/in/deboraferreiramaciel/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <p class="d-lg-none d-xl-none">Linkedin</p>
+                  </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
